@@ -115,7 +115,17 @@
 /* --------------esercizio 10-------------- */
 .ex-10-icon {
     font-size: 60px;
+    transition: transform 5s;
 }
+
+.ex-10-icon:hover {
+    animation: rotation 0.2s linear infinite;
+}
+
+@keyframes rotation {
+    0%   {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);
+
 
 /* --------------esercizio 11-------------- */
 .ex-11-icon {

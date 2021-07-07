@@ -15,37 +15,57 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: transform 2s;
 }
+
+.ex-2-square:hover {
+    transform: scale(15,6);
+}
+/* --------------esercizio 3-------------- */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* --------------esercizio 4-------------- */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* --------------esercizio 5-------------- */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+
+/* --------------esercizio 6 - 7 - 8-------------- */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
 
+/* --------------esercizio 9-------------- */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+/* --------------esercizio 10-------------- */
 .ex-10-icon {
     font-size: 60px;
 }
+
+/* --------------esercizio 11-------------- */
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* --------------esercizio 12 - 13-------------- */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -59,6 +79,8 @@
     text-align: center;
     text-decoration: none;
 }
+
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;

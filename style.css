@@ -74,8 +74,21 @@
 }
 
 /* --------------esercizio----------------- 7 */
+.ex-7-img:hover {
+    filter: hue-rotate(270deg) blur(5px);
+}
+
 .ex-7-img {
-    filter: grayscale(100%);
+    transition: filter 3s;
+}
+/* ---------------esercizio 8--------------------- */
+.ex-8-img {
+    transition: filter 1s, border-radius 2s;
+}
+
+.ex-8-img:hover {
+    filter: invert(100%) saturate(5);
+    border-radius: 50%;
 }
 
 /* --------------esercizio 6 - 7 - 8-------------- */

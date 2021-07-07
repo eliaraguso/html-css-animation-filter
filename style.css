@@ -119,17 +119,31 @@
 }
 
 .ex-10-icon:hover {
-    animation: rotation 0.2s linear infinite;
+    animation: rotation360 0.2s linear infinite;
 }
 
-@keyframes rotation {
+@keyframes rotation360 {
     0%   {transform: rotate(0deg);}
-    100% {transform: rotate(360deg);
-
+    100% {transform: rotate(360deg)};
+}
 
 /* --------------esercizio 11-------------- */
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover {
+    animation-name: rotation270;
+    animation-duration:  1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+
+@keyframes rotation270 {
+    0%   {transform: rotate(0deg);}
+    100%   {transform: rotate(270deg);}
 }
 
 /* --------------esercizio 12 - 13-------------- */

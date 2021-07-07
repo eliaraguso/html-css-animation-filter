@@ -38,6 +38,11 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: transform 1.5s;
+}
+
+.ex-4-square:hover {
+    transform: scale(0,0);
 }
 
 /* --------------esercizio 5-------------- */

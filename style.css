@@ -179,14 +179,6 @@
 }
 
 /* -------------------esercizio 13---------------- */
-/* .ex-13-button:hover .ex-13-top-white {
-    top
-}
-
-.ex-13-top-white {
-    transition: move-border-360;
-} */
-
 .ex-13-button:hover .ex-13-top-white {
     animation: moving-bordertop-360 5s linear;
     animation-iteration-count: infinite;
